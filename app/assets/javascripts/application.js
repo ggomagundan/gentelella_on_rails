@@ -11,9 +11,10 @@
 // about supported directives.
 //
 //= require jquery
-//= require bootstrap-sprockets
-
 //= require jquery_ujs
+//= require jquery-ui
+//= require tether
+//= require bootstrap
 //= require turbolinks
 
 //= require js/fastclick/fastclick
@@ -47,5 +48,5 @@
 //= require js/moment/moment
 //= require js/bootstrap-daterangepicker/daterangepicker
 
-//= require js/custom
+// require js/custom
 

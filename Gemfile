@@ -18,14 +18,13 @@ gem 'coffee-rails', '~> 4.1.0'
 
 gem "font-awesome-rails"
 
-gem 'bootstrap-sass', '~> 3.3.6'
-
-# gentelella Support Bootstrap3 
-# gem 'bootstrap', '~> 4.0.0.alpha5'
+gem 'bootstrap', '~> 4.0.0.alpha5'
 
 source 'https://rails-assets.org' do
     gem 'rails-assets-tether', '>= 1.1.0'
 end
+
+gem 'jquery-ui-rails'
 
 
 # Use jquery as the JavaScript library
